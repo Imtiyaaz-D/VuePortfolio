@@ -1,37 +1,23 @@
 <template>
     <div>
         <h2>Testimonials</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col" v-for="item in data" :key="item.id">
-                    <div class="card" style="width: 18rem;">
-                        <img :src="item.image" class="card-img-top" :alt="item.name">
-                        <div class="card-body">
-                          <h1>{{ item.description }}</h1>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
+        <TestimonialComp/>
     </div>
 </template>
 
 <script>
+import TestimonialComp from '@/components/TestimonialComp.vue';
     export default {
-        data(){
-            return{
-                data:[]
-            }
+        components:{
+            TestimonialComp
         },
-        methods:{
-            async fetchData(){
-                const res = await fetch("https://imtiyaaz-d.github.io/portfolio-sever/index.json")
-                let parsedData = await res.json()
-                this.data = parsedData.testimonials;
+        computed: {
+            testimonials(){
+                return this.$store.state.testimonials
             }
         },
         mounted(){
-            this.fecthData()
+            this.$store.dispatch('fetchTestimonials')
         }
     }
 </script>
