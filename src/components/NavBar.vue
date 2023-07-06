@@ -19,8 +19,8 @@
                       Resume
                     </router-link>
                     <ul class="dropdown-menu dropdown-menu-dark">
-                      <li><router-link to="/resume" class="dropdown-item" href="#">Skills</router-link></li>
-                      <li><router-link to="" class="dropdown-item" href="#">Education</router-link></li>
+                      <li><router-link to="/resume" class="dropdown-item" href="">Education</router-link></li>
+                      <li><router-link to="/resume" class="dropdown-item" href="skills-section">Skills</router-link></li>
                     </ul>
                   </li>
                   <li class="nav-item">

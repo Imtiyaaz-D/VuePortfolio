@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="col" v-for="projects in projects" :key="projects.id">
+        <div class="col-4" v-for="projects in projects" :key="projects.id">
           <div class="card" style="width: 18rem">
             <img :src="projects.image" class="card-img-top" :alt="projects.title"/>
             <div class="card-body">
