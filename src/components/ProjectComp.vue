@@ -7,6 +7,7 @@
             <img :src="projects.image" class="card-img-top " :alt="projects.title"/>
             <div class="card-body">
               <p>{{ projects.description }}</p>
+              <a class="btn btn-secondary" target="_blank" :href='projects.netlink'>{{projects.title}}</a>
             </div>
           </div>
         </div>
