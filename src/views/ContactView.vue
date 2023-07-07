@@ -18,7 +18,7 @@
                 oninput="this.setCustomValidity('')">
               </div>
               <div class="mb-3 px-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" oninvalid="this.setCustomValidity('Please Enter Your message')"
                 oninput="this.setCustomValidity('')"></textarea>
               </div>
