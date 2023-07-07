@@ -4,17 +4,17 @@
         <form class="cont" action="https://formspree.io/f/xwkdkkgb" method="post">
             <div class="mb-3 px-3">
                 <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter First Name" required oninvalid="this.setCustomValidity('Please Enter Your  First Name')"
+                <input type="name" name="First Name" class="form-control" id="exampleFormControlInput1" placeholder="Enter First Name" required oninvalid="this.setCustomValidity('Please Enter Your  First Name')"
                 oninput="this.setCustomValidity('')">
               </div>
               <div class="mb-3 px-3">
                 <label for="exampleFormControlInput1" class="form-label">Surname</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Surname" required oninvalid="this.setCustomValidity('Please Enter Your  Last Name')"
+                <input type="name"  name="SUrname" class="form-control" id="exampleFormControlInput1" placeholder="Enter Surname" required oninvalid="this.setCustomValidity('Please Enter Your  Last Name')"
                 oninput="this.setCustomValidity('')">
               </div>
             <div class="mb-3 px-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com" required  oninvalid="this.setCustomValidity('Please Enter Your Email')"
+                <input type="email" name="Email addreaa" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com" required  oninvalid="this.setCustomValidity('Please Enter Your Email')"
                 oninput="this.setCustomValidity('')">
               </div>
               <div class="mb-3 px-3">
