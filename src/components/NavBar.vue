@@ -15,11 +15,11 @@
                     <router-link to="/about">About</router-link>
                   </li>
                   <li class="nav-item dropdown">
-                    <router-link to="/resume" class="btn dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false">
+                    <router-link to="/resume"  data-bs-toggle="dropdown" aria-expanded="false">
                       Resume
                     </router-link>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                      <li><router-link to="/resume" class="dropdown-item" href="">Education</router-link></li>
+                    <ul class="dropdown-menu">
+                      <li><router-link to="/resume" class="dropdown-item" href="education-section">Education</router-link></li>
                       <li><router-link to="/resume" class="dropdown-item" href="skills-section">Skills</router-link></li>
                     </ul>
                   </li>
@@ -46,5 +46,8 @@
 </script>
 
 <style scoped>
+.dropdown-menu{
+  list-style:none
+}
 
 </style>

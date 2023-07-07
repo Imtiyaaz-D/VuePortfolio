@@ -23,5 +23,8 @@ import TestimonialComp from '@/components/TestimonialComp.vue';
 </script>
 
 <style scoped>
+@media(width<800px)  {
+    
+}
 
 </style>
