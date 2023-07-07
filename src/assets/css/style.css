@@ -24,10 +24,7 @@
     width: 100%;
 }
 /* about descripiton */
-.about-text{
-display: flex;
-justify-content: center;
-}
+
 #profile-text{
 display: flex;
 justify-content: center;

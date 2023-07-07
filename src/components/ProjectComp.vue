@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="container">
+    <div class="container animate__animated animate__backInLeft">
       <div class="row">
         <div class="col-4" v-for="projects in projects" :key="projects.id">
           <div class="card" style="width: 18rem">
-            <img :src="projects.image" class="card-img-top" :alt="projects.title"/>
+            <img :src="projects.image" class="card-img-top " :alt="projects.title"/>
             <div class="card-body">
               <p>{{ projects.description }}</p>
             </div>
@@ -28,4 +28,6 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

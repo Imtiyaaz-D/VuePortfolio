@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <h2>About</h2>
-    <div class="about-text">
-      <img src="https://i.postimg.cc/k5DXHknx/C12-C2-Mogammad-Damon-1-removebg-preview.png" alt="profile image" loading="lazy" id="profile image">
-      <div>
+  <div class="about-content">
+    <div class="about-img">
+      <img src="https://i.postimg.cc/k5DXHknx/C12-C2-Mogammad-Damon-1-removebg-preview.png" class=" animate__animated animate__fadeInTopLeft" alt="profile image" loading="lazy" id="profile image">
+      <div class="mt-5 animate__animated animate__fadeInTopLeft">
       <p id="profile-text">I have always had a deep curiosity for coding. From a young age, I found myself drawn to coding, which will eventually led me to pursue a career in coding. I believe that coding has the power to change the world , and I am dedicated to making a difference through my work.</p>
     </div>
     </div>
-   <a href="../assets/cv/CURRICULUM_VITAE_Mogammad_Imtiyaaz_Damon_without_cover_letter+(1)_qwerpdf_word_to_pdf.pdf" download="/CURRICULUM_VITAE_Mogammad_Imtiyaaz_Damon_without_cover_letter+(1)_qwerpdf_word_to_pdf.pdf">Download CV</a>
+    <button><a href=" https://drive.google.com/uc?export=download&id=1DMiBMTz-WL9EF6al5KYT9m2A3p8uLixz" target="_blank">
+    Download CV</a></button>
   </div>
 </template>
 
@@ -18,5 +18,25 @@
 </script>
 
 <style scoped>
-
+.about-img{
+  display: flex;
+  justify-content: center;
+  }
+@media  (max-width < 800px){
+.about-content{
+  max-width:100%;
+    height:auto;
+    text-align: center;
+}
+.about-img{
+  max-width:100%;
+  height:auto;
+  text-align: center;
+  }
+#profile-text{
+  max-width:100%;
+    height:auto;
+    text-align: center;
+}
+}
 </style>
