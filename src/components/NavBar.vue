@@ -12,17 +12,12 @@
                     <router-link to="/">Home</router-link>
                   </li>
                   <li class="nav-item">
-                    <router-link to="/about">About</router-link>
+                  <router-link to="/about">About</router-link>
                   </li>
-                  <li class="nav-item dropdown">
-                    <router-link to="/resume"  data-bs-toggle="dropdown" aria-expanded="false">
-                      Resume
-                    </router-link>
-                    <ul class="dropdown-menu">
-                      <li><router-link to="/resume" class="dropdown-item" href="education-section">Education</router-link></li>
-                      <li><router-link to="/resume" class="dropdown-item" href="skills-section">Skills</router-link></li>
-                    </ul>
+                  <li class="nav-item">
+                    <router-link to="/resume">Skills</router-link>
                   </li>
+                  
                   <li class="nav-item">
                     <router-link to="/project">Projects</router-link>
                   </li>
