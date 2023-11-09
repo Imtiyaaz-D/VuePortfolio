@@ -31,7 +31,6 @@
 }
 
 .bi {
-
     font-size: 1.8rem;
     margin: 0.5rem;
     color: black;
