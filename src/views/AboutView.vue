@@ -6,8 +6,7 @@
       <p id="profile-text">I have always had a deep curiosity for coding. From a young age, I found myself drawn to coding, which will eventually led me to pursue a career in coding. I believe that coding has the power to change the world , and I am dedicated to making a difference through my work.</p>
     </div>
     </div>
-    <button><a href=" https://drive.google.com/uc?export=download&id=1DMiBMTz-WL9EF6al5KYT9m2A3p8uLixz" target="_blank">
-    Download CV</a></button>
+    
   </div>
 </template>
 
