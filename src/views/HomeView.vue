@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="home-message p-2">
-      <img src="https://i.postimg.cc/13C3dB4m/C12-C2-Mogammad-Damon-1.jpg" alt="home-img">
+      <img src="https://iili.io/J1JqrR2.png" alt="home-img">
       <div class="heading-msg">
         <h3 class=" animate__animated animate__bounce">Weclome to an Aspiring Web-Developer</h3>
         <div class="view_more_btn">
